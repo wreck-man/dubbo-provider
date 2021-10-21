@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.provider.mapper.product_typeMapper">
+  <resultMap id="BaseResultMap" type="com.example.model.product_type">
+    <id column="type_id" jdbcType="INTEGER" property="typeId" />
+    <result column="type_name" jdbcType="VARCHAR" property="typeName" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    type_id, type_name
+  </sql>
+
+</mapper>
